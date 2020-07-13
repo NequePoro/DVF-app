@@ -36,22 +36,14 @@
 	<div class="topnav">
 		<div class="topnav-left">
 			<div class="title">
-				<a class="full-title" href="/">Demande de Valeur Foncière</a>
-				<a class="short-title" href="/">DVF</a>
+				<a class="full-title" href="/">Ventes Immo de 2015 à 2019</a>
+				<a class="short-title" href="/">Source DVF</a>
 			</div>
 			<div class="hamburger" onclick="toggleLeftBar()">
 				<i class="fas fa-bars fa-1x"></i>
 			</div>
 		</div>
-		<div class="topnav-right">
-			<a href="https://github.com/etalab/DVF-app">
-				Code<span class="long-text"> source</span>
-			</a>
-			<a href="faq.html">FAQ</a>
-			<a href="https://framaforms.org/demande-de-valeur-fonciere-dvf-votre-avis-nous-interesse-1556111586">
-				Votre avis<span class="long-text"> nous intéresse</span>
-			</a>
-		</div>
+
 	</div>
 
 	<div id="app" class="wrapper">
@@ -82,7 +74,7 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="daterange" class="control-label">Date de la mutation</label>
+					<label for="daterange" class="control-label">Période</label>
 					<input type="text" id="daterange" name="daterange" value="01-01-2010 - 15-01-2018" class="form-control" />
 				</div>
 			</div>
@@ -101,11 +93,6 @@
 				</div>
 			</div>
 
-			<div id="logo">
-				<a href="https://www.etalab.gouv.fr/qui-sommes-nous">
-					<img src="/images/etalab-blanc.png" alt="Etalab" style="max-width: 100px" />
-				</a>
-			</div>
 		</div>
 
 		<div id="content">
@@ -128,20 +115,7 @@
 		</div>
 	</div>
 
-	<!-- Matomo -->
-	<script type="text/javascript">
-		var _paq = _paq || [];
-		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-		_paq.push(['trackPageView']);
-		_paq.push(['enableLinkTracking']);
-		(function () {
-			var u = "//stats.data.gouv.fr/";
-			_paq.push(['setTrackerUrl', u + 'piwik.php']);
-			_paq.push(['setSiteId', '76']);
-			var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-			g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-		})();
-	</script>
+
 	<script src="js/data.js"></script>
 	<script src="js/component.boite.js"></script>
 	<script src="js/component.boite-accordeon.js"></script>

@@ -1,3 +1,4 @@
+# coding=utf-8
 # Pour lancer le serveur : python app.py
 # Puis acceder au site sur localhost:5000
 

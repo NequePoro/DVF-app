@@ -46,6 +46,3 @@ WITH (
     OIDS = FALSE
 )
 TABLESPACE pg_default;
-
-	
-
