@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7ce03b17-0aa5-41d2-a464-ad352d6e2c97" name="GitHub Neque" url="https://github.com/NequePoro/immoStat">
+        <fileTransfer rootFolder="https://github.com/NequePoro/immoStat" accessType="SFTP" host="ttps://github.com/NequePoro/immoStat" sshConfigId="5d33a357-eed6-4fbc-9ffb-b7ef08e77dfd" sshConfig="nequeporo@gmail.com@ttps://github.com/NequePoro/immoStat:&lt;port&gt; agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
